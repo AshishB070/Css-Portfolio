@@ -41,9 +41,9 @@ a {
 
 :root {
   --color-orange: #e85604;
-  --color-dark: #2a2a2a;
+  --color-dark: #080808;
 
-  --body-bg: #d8fff5;
+  --body-bg: #afccc2;
   --text-color: var(--color-dark);
   --border-color: var(--color-dark);
 
@@ -112,11 +112,11 @@ header {
   color: var(--color-orange);
   transition: all 0.3s;
 }
-#darkMode {
+#darkmode {
   display: none;
 }
 /* dark mode activation  */
-#darkMode:checked + .wrapper {
+#darkmode:checked + .wrapper {
   --body-bg: var(--dark-bg);
   --text-color: var(--dark-text-color);
   --border-color: var(--dark-border-color);
